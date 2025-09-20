@@ -1,0 +1,83 @@
+.corner {
+  background-color: #be5103;
+  width: 40%;
+  height: 60%;
+  z-index: 0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 30px;
+}
+
+.corner.top-right {
+  margin-top: -4px;
+  margin-left: 61%;
+}
+
+.corner.bottom-left {
+  margin-top: 75px;
+  margin-left: -3px;
+}
+
+@media (max-width: 1050px) {
+  .corner {
+    width: 45%;
+    height: 50%;
+  }
+  .corner.top-right {
+    margin-top: -3px;
+    margin-left: 56%;
+  }
+  .corner.bottom-left {
+    margin-top: 102px;
+    margin-left: -3px;
+  }
+}
+@media (max-width: 900px) {
+  .corner.bottom-left {
+    margin-top: 82px;
+    margin-left: -3px;
+  }
+}
+@media (max-width: 600px) {
+  .corner.bottom-left {
+    margin-top: 82px;
+    margin-left: -3px;
+  }
+}
+
+@media (max-width: 500px) {
+  .corner.bottom-left {
+    margin-top: 92px;
+    margin-left: -3px;
+  }
+}
+@media (max-width: 400px) {
+  .corner.bottom-left {
+    margin-top: 93px;
+    margin-left: -3px;
+  }
+}
+@media (max-width: 390px) {
+  .corner.bottom-left {
+    margin-top: 102px;
+    margin-left: -3px;
+  }
+}
+@media (max-width: 331px) {
+  .corner.bottom-left {
+    margin-top: 112px;
+    margin-left: -3px;
+  }
+}
+
+@media (max-width: 280px) {
+  .corner.bottom-left {
+    margin-top: 122px;
+    margin-left: -3px;
+  }
+}
+@media (max-width: 250px) {
+  .corner.bottom-left {
+    margin-top: 142px;
+    margin-left: -3px;
+  }
+}
