@@ -1,12 +1,72 @@
-# React + Vite
+# DevSynch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with **React + Vite**.  
+This project uses **Material-UI (MUI)** for components, with custom styling and responsive design.  
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Fast development with Vite  
+- 🎨 Styled using Material-UI  
+- 📱 Fully responsive layout  
+- 🧩 Modular components (Hero section, Footer, Banner, Leadership section, etc.)  
+- 🔮 Glassy blur effects for modern UI design  
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+Devsynch/
+│── public/          # Static assets
+│── src/             # Main source code
+│   ├── assets/      # Images, icons, and logos
+│   ├── components/  # Reusable components
+│   ├── Custom/      # Custom-designed components
+│   └── App.jsx      # Root component
+│── index.html       # Entry HTML
+│── package.json     # Project metadata and dependencies
+│── vite.config.js   # Vite configuration
+```
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Taha-Asad/Devsynch.git
+   cd Devsynch
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+5. **Preview production build**
+   ```bash
+   npm run preview
+   ```
+
+## 📦 Dependencies
+
+Key dependencies used in this project:
+- [React](https://react.dev/)  
+- [Vite](https://vitejs.dev/)  
+- [Material-UI (MUI)](https://mui.com/)  
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to open a pull request or issue.
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
