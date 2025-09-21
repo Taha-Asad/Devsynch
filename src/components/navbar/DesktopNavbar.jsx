@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Box, Button, Container, Link, Stack } from "@mui/material";
+import { Box, Button, Container, Link, Stack, Typography } from "@mui/material";
 import { Link as RouterLink } from "react-router";
-
+import logo from "../../assets/logo/Logo.png";
 const DesktopNavbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -36,17 +36,25 @@ const DesktopNavbar = () => {
         }}
       >
         <Box>
-          <h4
-            style={{
-              fontFamily: "Poppins",
-              margin: 0,
-              fontSize: "22px",
-              color: "#ffffff",
-              fontWeight: 700,
-            }}
+          <Stack
+            direction={"row"}
+            alignContent={"center"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            spacing={2}
           >
-            Company name or logo
-          </h4>
+            <img src={logo} alt="" width={50} height={50} />
+            <Typography
+              sx={{
+                fontFamily: "Quicksand",
+                fontWeight: 700,
+                color: "#ffffff",
+                fontSize: 28,
+              }}
+            >
+              DevSynch
+            </Typography>
+          </Stack>{" "}
         </Box>
         <Box sx={{ width: "45%" }}>
           <Stack

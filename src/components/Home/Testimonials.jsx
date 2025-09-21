@@ -96,7 +96,7 @@ const Testimonials = () => {
                     height: { xs: 15, sm: 20, md: 20 },
                     top: -35.2,
                     isolation: "isolate",
-                    zIndex: 100,
+                    zIndex: 1,
                     borderRadius: "50%",
                     mixBlendMode: "luminosity",
                   }}
@@ -107,7 +107,6 @@ const Testimonials = () => {
                     sx={{
                       position: "absolute",
                       top: -40,
-                      bgcolor: "#be5103",
                       borderRadius: 50,
                       zIndex: 0,
                     }}

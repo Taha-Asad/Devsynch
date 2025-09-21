@@ -164,7 +164,7 @@ export default function OurServices() {
               columns={{ xs: 4, sm: 8, md: 12 }}
             >
               {serviceCard.map((card, index) => (
-                <Grid item size={{ xs: 12, sm: 8, md: 4 }} key={index}>
+                <Grid item size={{ xs: 12, sm: 4, md: 4 }} key={index}>
                   <ServiceCard
                     icon={card.icon}
                     title={card.title}

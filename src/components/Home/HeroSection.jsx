@@ -96,7 +96,7 @@ const HeroSection = () => {
                 py: 0.5,
                 mt: "8px",
                 height: "40px",
-                width: { xs: "160px", md: "200px" },
+                width: "200px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",

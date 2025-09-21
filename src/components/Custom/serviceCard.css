@@ -43,7 +43,12 @@
     margin-left: -3px;
   }
 }
-
+@media (max-width: 510px) {
+  .corner.bottom-left {
+    margin-top: 94px;
+    margin-left: -3px;
+  }
+}
 @media (max-width: 500px) {
   .corner.bottom-left {
     margin-top: 92px;

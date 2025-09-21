@@ -8,7 +8,10 @@ import {
   ListItemText,
   IconButton,
   Button,
+  Stack,
+  Typography,
 } from "@mui/material";
+import logo from "../../assets/logo/Logo.png";
 import { Link as RouterLink } from "react-router";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -38,17 +41,24 @@ const MobileNavbar = () => {
         zIndex: 1200,
       }}
     >
-      <h4
-        style={{
-          fontFamily: "Poppins",
-          margin: 0,
-          fontSize: "20px",
-          color: "#ffffff",
-          fontWeight: 700,
-        }}
+      <Stack
+        direction={"row"}
+        spacing={0.5}
+        alignContent={"center"}
+        alignItems={"center"}
       >
-        Logo
-      </h4>
+        <img src={logo} alt="" width={42} height={42} />
+        <Typography
+          sx={{
+            fontFamily: "Quicksand",
+            fontWeight: 700,
+            color: "#ffffff",
+            fontSize: 20,
+          }}
+        >
+          DevSynch
+        </Typography>
+      </Stack>
 
       <IconButton onClick={() => setDrawerOpen(true)}>
         <MenuIcon sx={{ color: "#FFEED5" }} />
